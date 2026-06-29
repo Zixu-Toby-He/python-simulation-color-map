@@ -1,0 +1,69 @@
+# 核心 LaTeX 辅助文件
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+*.pdfsync
+*.mw
+*.brf
+*.cb
+*.cb2
+*.gaux
+*.xdy
+*.xcp
+*.xkv
+*.xps
+
+# 索引和词汇表文件
+*.ind
+*.idx
+*.ilg
+*.ist
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.acn
+*.acr
+*.alg
+*.loa
+
+# 幻灯片（Beamer）相关
+*.nav
+*.snm
+*.vrb
+
+# 备份文件
+*.bak
+*.backup
+*.sav
+*.auxlock
+
+# 输出文件（编译结果）
+*.dvi
+*.ps
+# *.pdf          # 如果希望将 PDF 纳入版本控制，请删除或注释此行
+*.xdv
+
+# 如果使用 latexmk 的 -pdf 或 -pdflatex 选项，通常生成的文件都已被覆盖；
+# 若使用独立的输出目录（如 build/），可以取消下一行的注释：
+# build/
+
+# 编辑器临时文件（根据你的编辑器添加）
+*~
+*.swp
+*.swo
+*.vscode/
+*.idea/
+*.tlb
+*.lb
